@@ -1,0 +1,51 @@
+html {
+    width: 100%;
+    height: 500px;
+}
+
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+embed {
+    visibility: hidden;
+}
+
+p {
+    font-size: 40px;
+    position: relative;
+    top:0px;
+    text-align: center;
+    vertical-align: top;
+    margin: 0 0 0 auto;
+    color:red;
+    font-family: 'Fascinate', cursive;
+
+}
+
+
+
+.circle {
+    float: left;
+    width: 150px;
+    height: 150px;
+    /*background-color: #5061cf;*/
+    z-index: 100;
+
+}
+
+.circle:hover {
+  vertical-align: middle;
+}
+
+.bumper {
+    position: absolute;
+    top: 75px;
+    left: 200px;
+    padding: 32px;
+    overflow: auto;
+    /*outline: 1px solid red;*/
+    z-index: 100;
+}
